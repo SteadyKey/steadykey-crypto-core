@@ -1,0 +1,21 @@
+{
+  "name": "steadykey-crypto-core",
+  "version": "0.1.0",
+  "description": "Crypto core for SteadyKey: MachineKey, PIN-based KDF, AES-GCM encryption for browser/Web Crypto.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "crypto",
+    "aes-gcm",
+    "pbkdf2",
+    "webcrypto",
+    "steadykey"
+  ],
+  "author": "",
+  "license": "MIT"
+}
